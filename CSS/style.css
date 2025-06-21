@@ -1,0 +1,33 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+h1{
+    color: cadetblue;
+    background-color: black;
+}
+.heading{
+    color:darkmagenta;
+}
+#head{
+    color:green;
+}
+h1[class="heading"]{    
+    color:blue;
+}
+
+input[type="email"]{    
+    border-color: red;
+}
+input[type="number"]{
+    border-color:darkmagenta;
+}
+
+input[type="tex"]{
+    border-color:darkslategrey;
+}
+
+p, #btn, h3{
+    color: blue;
+}
